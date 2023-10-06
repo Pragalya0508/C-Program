@@ -1,0 +1,39 @@
+                         GREATEST B/W 2 NUMBERS
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    int x, y;
+    
+    // Asking for input
+    cout << "Enter the first number: ";
+    cin >> x;
+    cout << "Enter the second number: ";
+    cin >> y;
+    
+    if (x > y){
+        cout << x << " is greater than " << y;
+    }
+    else if (y > x){
+        cout << y << " is greater than " << x;
+    }
+    else{
+        cout << "Both are equal";
+    }
+    return 0;
+}
+   
+
+
+OUTPUT 1:
+
+Enter the first number: 18
+Enter the second number: 12
+18 is greater than 12
+
+OUTPUT 2:
+
+Enter the first number: 15
+Enter the second number: 15
+Both are equal
